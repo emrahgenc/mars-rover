@@ -25,6 +25,10 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRoger.Client", "src\MarsRoger.Client\MarsRoger.Client.csproj", "{54FCA2C7-5F2C-4AD8-BE39-33C63937F341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Application.Tests", "tests\MarsRover.Application.Tests\MarsRover.Application.Tests.csproj", "{06CC036E-4382-42DF-90FE-FFC443E62330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsRover.Client.Tests", "tests\MarsRover.Client.Tests\MarsRover.Client.Tests.csproj", "{E5D83CA9-8555-49EE-813B-2BA4EDA17ED5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{54FCA2C7-5F2C-4AD8-BE39-33C63937F341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FCA2C7-5F2C-4AD8-BE39-33C63937F341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FCA2C7-5F2C-4AD8-BE39-33C63937F341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CC036E-4382-42DF-90FE-FFC443E62330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CC036E-4382-42DF-90FE-FFC443E62330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CC036E-4382-42DF-90FE-FFC443E62330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CC036E-4382-42DF-90FE-FFC443E62330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D83CA9-8555-49EE-813B-2BA4EDA17ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D83CA9-8555-49EE-813B-2BA4EDA17ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D83CA9-8555-49EE-813B-2BA4EDA17ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D83CA9-8555-49EE-813B-2BA4EDA17ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +87,8 @@ Global
 		{70005C11-811E-4CC4-A095-3F0047F45B1B} = {A666535E-806E-43E0-A573-69F8F30BA321}
 		{7EA3BCB0-8267-4E57-A6E2-90857004E100} = {7D4CD9B1-DF2C-454F-B7FD-F652752C97B3}
 		{54FCA2C7-5F2C-4AD8-BE39-33C63937F341} = {7D4CD9B1-DF2C-454F-B7FD-F652752C97B3}
+		{06CC036E-4382-42DF-90FE-FFC443E62330} = {CD9A4FD1-B2C9-4DC0-88AB-AE75C499AC8D}
+		{E5D83CA9-8555-49EE-813B-2BA4EDA17ED5} = {CD9A4FD1-B2C9-4DC0-88AB-AE75C499AC8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B9F2F9D2-F9C0-4B95-89EC-ACD9FBCF01BD}
